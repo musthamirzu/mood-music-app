@@ -30,18 +30,18 @@ const AddMood = () => {
     setSongs(updated);
   };
 
-  // 🔍 VALIDATION LOGIC
+  
   const validate = () => {
     const newErrors = {};
 
-    // Mood validation
+    
     if (!moodName.trim()) {
       newErrors.moodName = "Mood name is required";
     } else if (moodName.trim().length < 2) {
       newErrors.moodName = "Mood name must be at least 2 characters";
     }
 
-    // Songs validation
+   
     const validSongs = songs.filter(
       (s) => s.title.trim() && s.artist.trim()
     );

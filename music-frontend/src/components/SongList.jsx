@@ -20,7 +20,6 @@ const SongList = ({ songs }) => {
             hover:shadow-md transition
           "
         >
-          {/* Song Name */}
           <div className="flex items-center gap-2">
             <span className="text-sm font-semibold text-gray-500 dark:text-gray-400">
               Song Name:
@@ -30,7 +29,7 @@ const SongList = ({ songs }) => {
             </span>
           </div>
 
-          {/* Artist */}
+       
           <div className="flex items-center gap-2 mt-2 sm:mt-0">
             <span className="text-sm font-semibold text-gray-500 dark:text-gray-400">
               Artist:
