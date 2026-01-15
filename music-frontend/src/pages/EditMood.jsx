@@ -68,7 +68,6 @@ const EditMood = () => {
           </p>
         )}
 
-        {/* MOOD NAME */}
         <div className="mb-6">
           <label className="block text-sm font-semibold text-gray-600 mb-2">
             Mood Name
